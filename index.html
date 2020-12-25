@@ -15,24 +15,29 @@
     <header class="headerCenter headerBackground headerFontColor container-fluid">
         <h1>Weather Dashboard</h1>
     </header>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4 bg-light">
-                <p class="searchSize">Search for a City:</p>
-                <div class="form-group form-inline">
-                    <input  id="searchVal" class="form-control" type="text">
-                    <button id="searchBtn" class="btn-primary btn">Search</button>
-                </div>
-                <ul id="pastSearches" class="list-group"></ul>
+   
+    <div class="row">
+        <div class="col-lg-4 bg-light">
+            <p class="searchSize">Search for a City:</p>
+            <div class="form-group form-inline">
+                <input  id="searchVal" class="form-control" type="text">
+                <button id="searchBtn" class="btn-primary btn">Search</button>
             </div>
-            <div class="col-lg-8">
+            <ul id="pastSearches" class="list-group"></ul>
+        </div>
+        <div class="col-lg-8">
+            <div class="row">
+                <h2>Today's Forcast</h2>
                 <div id="weatherToday"></div>
-                <div id="weatherForecast"></div>
             </div>
+            <div class="row">
+                <h2>5 Day Forecast</h2>
+                <div id="weatherForecast"></div> 
+            </div>    
+        
         </div>
     </div>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="script.js"></script>
