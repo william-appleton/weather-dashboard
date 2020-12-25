@@ -4,6 +4,6 @@ This app allows users to search any US city and get today's weather and the fore
 
 Currently the forecast function is still under developmet. 
 
-The finished app looks like this:
+The finished app looks like this: [](https://raw.githubusercontent.com/william-appleton/weather-dashboard/master/weather-dashboard/assets/app-pic.PNG)
 
 And the live app can be seen at: https://william-appleton.github.io/weather-dashboard/
